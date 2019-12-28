@@ -1,0 +1,11 @@
+﻿<Window x:Class="Primfaktoren.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Primfaktoren" Height="189" Width="518">
+    <Grid>
+        <Label Content="Geben Sie eine positive ganze Zahl n >= 2 ein:" Height="28" HorizontalAlignment="Left" Margin="20,20,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="280,20,0,0" Name="txtInput" VerticalAlignment="Top" Width="80" HorizontalContentAlignment="Right" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="20,65,0,0" Name="txtPrimFactors" VerticalAlignment="Top" Width="462" IsReadOnly="True" IsEnabled="False" />
+        <Button Content="Starten" Height="23" HorizontalAlignment="Center" Margin="0,100,0,0" Name="btnStart" VerticalAlignment="Top" Width="75" Click="btnStart_Click" />
+    </Grid>
+</Window>

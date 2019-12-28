@@ -1,0 +1,20 @@
+﻿<Window x:Class="Aufgabe_2._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Katheten- und Höhensatz im rechtwinkligen Dreieck" Height="205" Width="299">
+    <Grid>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="50,20,0,0" Name="txtP" VerticalAlignment="Top" Width="50" HorizontalContentAlignment="Right" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="50,50,0,0" Name="txtQ" VerticalAlignment="Top" Width="50" HorizontalContentAlignment="Right" />
+        <Label Content="p:" Height="28" HorizontalAlignment="Left" Margin="20,20,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="q:" Height="28" HorizontalAlignment="Left" Margin="20,50,0,0" Name="label2" VerticalAlignment="Top" />
+        <Button Content="Berechnen" Height="23" HorizontalAlignment="Left" Margin="120,35,0,0" Name="button1" VerticalAlignment="Top" Width="75" Click="button1_Click" />
+        <Label Content="a:" Height="28" HorizontalAlignment="Left" Margin="20,80,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="b:" Height="28" HorizontalAlignment="Left" Margin="20,110,0,0" Name="label4" VerticalAlignment="Top" />
+        <Label Content="c:" Height="28" HorizontalAlignment="Left" Margin="110,80,0,0" Name="label5" VerticalAlignment="Top" />
+        <Label Content="h:" Height="28" HorizontalAlignment="Left" Margin="110,110,0,0" Name="label6" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="50,80,0,0" Name="txtA" VerticalAlignment="Top" Width="50" IsEnabled="False" />
+        <TextBox Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Right" IsEnabled="False" Margin="50,110,0,0" Name="txtB" VerticalAlignment="Top" Width="50" />
+        <TextBox Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Right" IsEnabled="False" Margin="140,110,0,0" Name="txtH" VerticalAlignment="Top" Width="50" />
+        <TextBox Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Right" IsEnabled="False" Margin="140,80,0,0" Name="txtC" VerticalAlignment="Top" Width="50" />
+    </Grid>
+</Window>

@@ -1,0 +1,28 @@
+﻿<Window x:Class="Polynom3Grad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Polynom 3. Grades" Height="261" Width="383" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="265*" />
+            <ColumnDefinition Width="96*" />
+        </Grid.ColumnDefinitions>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="60,20,0,0" Name="txtA3" VerticalAlignment="Top" Width="40" HorizontalContentAlignment="Right" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="140,20,0,0" Name="txtA2" VerticalAlignment="Top" Width="40" HorizontalContentAlignment="Right" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="220,20,0,0" Name="txtA1" VerticalAlignment="Top" Width="40" HorizontalContentAlignment="Right" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="35,20,0,0" Name="txtA0" VerticalAlignment="Top" Width="40" HorizontalContentAlignment="Right" Grid.Column="1" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="70,50,0,0" Name="txtFrom" VerticalAlignment="Top" Width="40" HorizontalContentAlignment="Center" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="166,50,0,0" Name="txtTo" VerticalAlignment="Top" Width="40" HorizontalContentAlignment="Center" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,50,21,0" Name="txtInterval" VerticalAlignment="Top" Width="40" HorizontalContentAlignment="Center" Grid.Column="1" />
+        <Label Content="f(x) = " Height="28" HorizontalAlignment="Left" Margin="20,20,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content=" x³ + " Height="28" HorizontalAlignment="Left" Margin="100,20,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content=" x² + " Height="28" HorizontalAlignment="Left" Margin="180,20,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content=" x + " Height="28" HorizontalAlignment="Left" Margin="260,20,0,0" Name="label4" VerticalAlignment="Top" Grid.ColumnSpan="2" />
+        <Label Content="Von x = " Height="28" HorizontalAlignment="Left" Margin="20,50,0,0" Name="label5" VerticalAlignment="Top" />
+        <Label Content="bis x = " Height="28" HorizontalAlignment="Left" Margin="116,50,0,0" Name="label6" VerticalAlignment="Top" />
+        <Label Content="Schrittweite = " Height="28" HorizontalAlignment="Left" Margin="214,50,0,0" Name="label7" VerticalAlignment="Top" Grid.ColumnSpan="2" />
+        <ListBox Height="100" HorizontalAlignment="Left" Margin="90,100,0,0" Name="lstRoots" VerticalAlignment="Top" Width="120" />
+        <Label Content="Nullstellen:" Height="28" HorizontalAlignment="Left" Margin="20,100,0,0" Name="label8" VerticalAlignment="Top" />
+        <Button Content="Berechnen" Height="23" HorizontalAlignment="Left" Margin="0,100,0,0" Name="btnCalculate" VerticalAlignment="Top" Width="75" Click="btnCalculate_Click" Grid.Column="1" />
+    </Grid>
+</Window>

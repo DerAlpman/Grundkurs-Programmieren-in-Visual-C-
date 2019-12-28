@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:complexType name="pc-Typ">
+  <xsd:sequence>
+    <xsd:element name="name"       type="xsd:string"/>
+    <xsd:element name="hersteller" type="xsd:string"/>
+    <xsd:element name="prozessor"  type="xsd:string"/>
+    <xsd:element name="mhz"        type="xsd:integer" minOccurs="0"/>
+    <xsd:element name="kommentar"  type="xsd:string"  minOccurs="0" maxOccurs="unbounded"/>
+  </xsd:sequence>
+  <xsd:attribute name="id" type="xsd:integer"/>
+</xsd:complexType>
+</xsd:schema>

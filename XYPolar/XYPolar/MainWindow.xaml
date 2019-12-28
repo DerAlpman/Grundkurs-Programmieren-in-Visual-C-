@@ -1,0 +1,17 @@
+﻿<Window x:Class="XYPolar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cartesian2Polar" Height="208" Width="367" Background="#FFDE3030">
+    <Grid>
+        <Label Content="x (m)" Height="28" HorizontalAlignment="Left" Margin="50,20,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="y (m)" Height="28" HorizontalAlignment="Left" Margin="160,20,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="phi (°)" Height="28" HorizontalAlignment="Left" Margin="50,90,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="r ( m)" Height="28" HorizontalAlignment="Left" Margin="160,90,0,0" Name="label4" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="20,50,0,0" Name="txtX" VerticalAlignment="Top" Width="100" HorizontalContentAlignment="Right" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="130,50,0,0" Name="txtY" VerticalAlignment="Top" Width="100" HorizontalContentAlignment="Right" />
+        <TextBox Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="20,120,0,0" Name="txtPhi" VerticalAlignment="Top" Width="100" IsEnabled="False" />
+        <TextBox Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="130,120,0,0" Name="txtRad" VerticalAlignment="Top" Width="100" IsEnabled="False" />
+        <Button Content="Berechnen" Height="23" HorizontalAlignment="Left" Margin="250,50,0,0" Name="btnCalculate" VerticalAlignment="Top" Width="75" Click="btnCalculate_Click" />
+        <Button Content="Beenden" Height="23" HorizontalAlignment="Left" Margin="250,0,0,26" Name="btnQuit" VerticalAlignment="Bottom" Width="75" Click="btnQuit_Click" />
+    </Grid>
+</Window>

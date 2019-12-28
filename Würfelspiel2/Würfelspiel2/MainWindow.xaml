@@ -1,0 +1,13 @@
+﻿<Window x:Class="Würfelspiel2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Würfelspiel 2" Height="192" Width="531">
+    <Grid>
+        <Label Content="Wie oft wollen Sie würfeln?" Height="28" HorizontalAlignment="Left" Margin="20,20,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="200,20,0,0" Name="txtInput" VerticalAlignment="Top" Width="40" />
+        <Label Content="Sie haben gewürfelt:" Height="28" HorizontalAlignment="Left" Margin="20,50,0,0" Name="label2" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="20,80,0,0" Name="txtResult" VerticalAlignment="Top" Width="471" IsReadOnly="True" IsEnabled="False" />
+        <Label Content="" Height="28" HorizontalAlignment="Left" Margin="20,110,0,0" Name="lblResult" VerticalAlignment="Top" />
+        <Button Content="Start" Height="23" HorizontalAlignment="Left" Margin="416,110,0,0" Name="btnStart" VerticalAlignment="Top" Width="75" Click="btnStart_Click" />
+    </Grid>
+</Window>

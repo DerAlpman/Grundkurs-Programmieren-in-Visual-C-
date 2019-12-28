@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quersumme", "Quersumme\Quersumme.csproj", "{E8767C66-A40B-4568-89A0-AAECE326E695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8767C66-A40B-4568-89A0-AAECE326E695}.Debug|x86.ActiveCfg = Debug|x86
+		{E8767C66-A40B-4568-89A0-AAECE326E695}.Debug|x86.Build.0 = Debug|x86
+		{E8767C66-A40B-4568-89A0-AAECE326E695}.Release|x86.ActiveCfg = Release|x86
+		{E8767C66-A40B-4568-89A0-AAECE326E695}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
